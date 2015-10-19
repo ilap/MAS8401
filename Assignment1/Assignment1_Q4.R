@@ -9,6 +9,6 @@ data = read.csv("A1Q4.csv", header=TRUE)
 data
 
 colors=c("grey", "white")
-boxplot (Reduction~Drug+Hospital, data=data, col = colors, las = 2, main="Diastolic Blood pressures reduction", 
+boxplot (Reduction~Drug+Hospital, data=data, col = colors, las = 2, main="Diastolic Blood Pressure Reduction Drug Trial", 
          ylab="Reduction of hypertension")
 legend("topleft", c("Drug", "Placebo"), fill=colors, horiz=TRUE)

@@ -4,7 +4,9 @@ a = sample(obs, 1, prob = probs)
 
 x = sort(round(rgamma(a, 30, 3),2))
 x
+a
 
 c = seq(0, 20, 0.1)
 d = dgamma(c, 30, 3)
 plot (c,d, type = "l")
+
